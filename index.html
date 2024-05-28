@@ -11,7 +11,7 @@
 
 
     <!-- Audio element for the download sound -->
-    <audio id="downloadSound" src="beep.mp3"></audio>
+    <audio id="downloadSound" src="audio/beep-warning.mp3"></audio>
 
     <div id="timer">Loading...</div>
     <div class="countdown">
@@ -22,13 +22,13 @@
         <div class="number" id="countdown-number">0</div>
     </div>
 
-    <a href="path/to/your/file.pdf" download class="download-button" onclick="playSound()">Download PDF</a>
+    <a href="pdf/HSCRoutin.pdf" download class="download-button" onclick="playSound()">Download PDF</a>
 
     <button class="video-button" onclick="showVideo()">Show Video</button>
     <div class="video-container" id="video-container">
         <button class="close-video" onclick="closeVideo()">×</button>
         <video id="video" controls>
-            <source src="path/to/your/video.mp4" type="video/mp4">
+            <source src="Video/1vid.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
     </div>

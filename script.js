@@ -17,7 +17,7 @@ let x = setInterval(function() {
     let seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
     // Display the result in the element with id="timer"
-    document.getElementById("timer").innerHTML = `${days}d ${("0" + hours).slice(-2)}h ${("0" + minutes).slice(-2)}m ${("0" + seconds).slice(-2)}s left`;
+    document.getElementById("timer").innerHTML = `${days}d ${("0" + hours).slice(-2)}h ${("0" + minutes).slice(-2)}m ${("0" + seconds).slice(-2)}s left for exam`;
 
     // Update the circular countdown
     let totalSeconds = (new Date("June 30, 2024 00:00:00").getTime() - new Date("January 1, 2024 00:00:00").getTime()) / 1000;
